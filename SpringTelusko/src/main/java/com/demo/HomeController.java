@@ -32,6 +32,7 @@ public ModelAndView home(Alien al) {
 	ModelAndView mv=new ModelAndView();
 	mv.addObject("obj", al);
 	mv.setViewName("home");
+	System.out.println("controller called");
 	return mv;
 }
 
